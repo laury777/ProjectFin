@@ -1,0 +1,25 @@
+<head>
+  <title>4-Month Financial Plan</title>
+  <style>
+    .input-field {
+      margin-bottom: 10px;
+    }
+    .input-field label {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>4-Month Financial Plan</h1>
+  <form id="financialPlanForm">
+    <div class="input-field">
+      <label for="income">Monthly Income:</label>
+      <input type="number" id="income" required>
+    </div>
+    <!-- Repeat the above div for each expense category (rent, food, travel, etc.), and for each debt. -->
+    <button type="submit">Calculate</button>
+  </form>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
